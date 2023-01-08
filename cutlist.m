@@ -82,3 +82,4 @@ for row = 1:1:rows(found_cut_patterns)
     printf("| %d\t\t| %d\n", offcuts(row), found_cut_patterns_numbers(row))
 endfor
 printf("sum of offcuts: %d\n", fmin)
+printf("number of required timbers: %d\n", sum(found_cut_patterns_numbers))
